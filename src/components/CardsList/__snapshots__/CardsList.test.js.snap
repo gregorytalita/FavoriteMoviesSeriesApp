@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsList component it matches the snapshot 1`] = `
+<div
+  className="makeStyles-list-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation3 card MuiPaper-rounded"
+    style={
+      Object {
+        "background": "url(https://image.tmdb.org/t/p/w300//AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg)",
+      }
+    }
+  >
+    <div
+      className="cardOverlay"
+    />
+    <div
+      className="cardRate"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+        style={
+          Object {
+            "color": "#fff",
+          }
+        }
+      >
+        <svg>
+          rate.svg
+        </svg>
+         
+        7
+      </p>
+      <svg>
+        movie.svg
+      </svg>
+    </div>
+    <div
+      className="cardContent"
+    >
+      <div
+        className="cardInfo"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+        >
+          <b>
+            Captain Marvel
+          </b>
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          2019-03-06
+        </p>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root makeStyles-button-2 MuiButton-text MuiButton-textSecondary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <svg>
+            remove.svg
+          </svg>
+           Remove
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

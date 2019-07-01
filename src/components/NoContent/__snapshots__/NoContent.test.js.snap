@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoContent component it matches the snapshot 1`] = `
+<div
+  className="makeStyles-wrapper-1"
+>
+  <h2
+    className="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter"
+  >
+    You didn’t add anything yet
+  </h2>
+  <svg>
+    none.svg
+  </svg>
+</div>
+`;

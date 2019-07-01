@@ -1,20 +1,45 @@
 {
-  "name": "challenge",
+  "name": "favorite-movies-series-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.1.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-easy-state": "^6.1.3",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "test",
+      "expect",
+      "fetch",
+      "localStorage"
+    ],
+    "parser": "babel-eslint"
   },
   "browserslist": {
     "production": [

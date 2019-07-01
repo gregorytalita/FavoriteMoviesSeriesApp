@@ -1,0 +1,87 @@
+.panelPlaceholder {
+  width: 40%;
+  position: relative;
+}
+
+.panel {
+  top: 0;
+  left: -1000px;
+  position: absolute;
+  width: 100%;
+  min-width: 400px;
+  height: 100vh;
+  background-color: white;
+  -webkit-animation: slide .8s forwards;
+  animation: slide .8s forwards;
+  transition: width 1s;
+  box-shadow: 12px 0 6px rgba(0, 0, 0, 0.16);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.panelContent {
+  width: 375px;
+}
+
+.illustration-panel {
+  width: 60%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration {
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper {
+  display: flex;
+  background: #E75B64;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.toggleForm {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .panelPlaceholder {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    background-color: white;
+  }
+
+  .illustration-panel {
+    width: 0;
+  }
+
+  .illustration {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .panelPlaceholder {
+    overflow: scroll;
+  }
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}

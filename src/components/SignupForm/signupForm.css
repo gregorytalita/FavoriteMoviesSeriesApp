@@ -1,0 +1,13 @@
+.formContent {
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  margin: 40px 0;
+  justify-content: space-around;
+}
+
+.formButton {
+  width: 100%;
+  margin: 32px 24px;
+}
+
